@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+/* body colour */
+body{
+background-color: #F5F2E9
+}
+
+h1 {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  bottom: 100px;
+  object-fit: cover; object-position: 100% 100;
+  float:left;
+}
+
+/* title font */
+#title {
+ font-family: 'Libre Baskerville';
+}
+
+/* buttons */
+#tab1, #tab2, #tab3 {
+  width: 150px;
+  height: 25px;
+  border-radius: 7px;
+  font-family: 'Libre Baskerville';
+  text-decoration: underline;
+  border: none;
+  background: none;
+  text-align: right;
+  float: right;
+  position: relative;
+  right: 50px;
+}
+
+/* selected button effects */
+.highlight {
+  background-color: #D9D5CF;
+}
+
+/* page headers */
+#header {
+  font-family: 'Libre Baskerville';
+  text-align: right;
+  font-size: 20px;
+}
+
+/*sub headings*/
+#sub {
+  font-family: 'Libre Baskerville';
+}
+
+/* toChange is sub-sub headings */
+#toChange {
+  font-family: 'Libre Baskerville';
+  float:none;
+  text-align: center;
+  font-size: 50px;
+}
+
+button:hover {
+  background-color:#D9D5CF;
+  
+}
